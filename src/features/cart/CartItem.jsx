@@ -2,8 +2,6 @@ import Button from "../../ui/Button";
 import { formatCurrency } from "../../utils/helpers";
 
 function CartItem({ item }) {
-  console.log(item);
-
   const { name, quantity, totalPrice } = item;
 
   return (
